@@ -42,6 +42,8 @@
   border-style:ridge;
   border-bottom: none;
   border-top:none;
+  color: #3D2F91;
+  font-weight: bold;
 }
 
 #github {

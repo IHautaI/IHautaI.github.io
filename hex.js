@@ -5,8 +5,8 @@ var m = 32; // m and n should always be even here
 var n = 16;
 var len = 12;
 
-var upcolor = "black"
-var downcolor = "white"
+var upcolor = "white"
+var downcolor = "#999999"
 
  var highthresh = 6;
  var lowthresh = 2;

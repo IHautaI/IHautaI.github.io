@@ -17,12 +17,18 @@
   color: white;
 }
 
-#extra {
-  background-color: white;
-}
+
 
 .underface {
   text-align: center;
+}
+
+.underface-left {
+  padding-top: 1.2em;
+}
+
+.underface-right {
+  padding-top: 1.2em;
 }
 
 .underface-center .pure-menu-link {
@@ -39,6 +45,13 @@
   border-bottom-width: .1em;
   border-bottom-style: groove;
 }
+#linkedin {
+  border-bottom: #999999;
+  border-bottom-width: .1em;
+  border-bottom-style: groove;
+}
+
+
 
 #bio {
   background-color: #999999;
@@ -59,6 +72,12 @@
 #bio .pure-u-4-5 {
   text-align: left;
 }
+
+
+#extra {
+  background-color: white;
+}
+
 
 body {
   background-color: #FFFFFF;

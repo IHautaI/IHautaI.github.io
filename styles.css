@@ -63,45 +63,6 @@
   text-align: left;
 }
 
-
-.pure-menu {
-  background-color: #999999;
-
-}
-
-.pure-menu {
-  display:block;
-  float:left;
-  width:100%;
-  overflow:hidden;
-  position:relative;
-  height:auto;
-}
-
-.pure-menu ul {
-  clear:left;
-  float:left;
-  margin:0;
-  padding:0;
-  position:relative;
-  left:50%;
-  text-align:center;
-}
-
-.pure-menu ul li {
-  display:block;
-  float:left;
-  position:relative;
-  right:50%;
-}
-
-.pure-menu ul li a {
-  /*display: block;*/
-  margin 0 0 0 1px;
-  color: black;
-
-}
-
 body {
   background-color: #FFFFFF;
 }

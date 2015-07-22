@@ -10,6 +10,9 @@
 
 #face {
   border-radius:45%;
+  border: white;
+  border-width: .15em;
+  border-style: solid;
 }
 
 #name {

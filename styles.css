@@ -21,6 +21,7 @@
 
 .underface {
   text-align: center;
+  background-color: white;
 }
 
 .underface-left {
@@ -80,5 +81,5 @@
 
 
 body {
-  background-color: #FFFFFF;
+  background-color: #999999;
 }

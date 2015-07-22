@@ -1,6 +1,6 @@
 .face {
   background-color: #3D2F91;
-  padding-bottom: 1em;
+  /*padding-bottom: 1em;*/
 }
 
 .title {
@@ -23,6 +23,7 @@
 .email {
   background-color: #3D2F91;
   text-align: center;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 

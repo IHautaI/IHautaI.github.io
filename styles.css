@@ -1,6 +1,6 @@
 .face {
   background-color: #3D2F91;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .title {
@@ -20,10 +20,17 @@
   color: white;
 }
 
-.title h4 {
+.email {
+  background-color: #3D2F91;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.email a {
   color: white;
   font-weight: normal;
   font-size: .9em;
+  padding-top: 1em;
 }
 
 .pure-menu-link:hover, .pure-menu-link:focus {

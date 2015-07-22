@@ -20,6 +20,12 @@
   color: white;
 }
 
+.title h4 {
+  color: white;
+  font-weight: normal;
+  font-size: .9em;
+}
+
 .pure-menu-link:hover, .pure-menu-link:focus {
   background-color: #ddd;
 }
@@ -30,11 +36,13 @@
 }
 
 .underface-left {
-  padding-top: 1.2em;
+  padding-top: 2em;
+  font-size: .8em;
 }
 
 .underface-right {
-  padding-top: 1.2em;
+  padding-top: 2em;
+  font-size: .8em;
 }
 
 .underface-center .pure-menu-link {

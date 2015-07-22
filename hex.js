@@ -1,12 +1,12 @@
 
 var svg = d3.selectAll("svg");
 
-var m = 24; // m and n should always be even here
-var n = 32;
+var m = 32; // m and n should always be even here
+var n = 16;
 var len = 12;
 
-var upcolor = "C9C5C1"
-var downcolor = "#3D2F91"
+var upcolor = "black"
+var downcolor = "white"
 
  var highthresh = 6;
  var lowthresh = 2;
@@ -32,7 +32,8 @@ var circles = svg.selectAll(".circle")
   .attr("id", function(d){ return d.i + m * d.j;})
   .attr("i", function(d){ return d.i;})
   .attr("j", function(d){ return d.j;})
-  .attr("transform", function(d){ return "translate(" + [len +  len * (2 * d.i + (1 + Math.pow(-1, 1 + d.j)) / 2), len + len * d.j * Math.sqrt(3)] + ")";})
+  .attr("transform", function(d){ return "translate(" + [len +  len * (2 * d.i +
+      (1 + Math.pow(-1, 1 + d.j)) / 2), len + len * d.j * Math.sqrt(3)] + ")";})
   .style("fill", downcolor);
 
 var change = function (d) {
@@ -48,9 +49,7 @@ var change = function (d) {
 
 circles.on("mouseover", change);
 
-
-$(document).ready(function() { setInterval(update, 600);});
-
+$(document).ready(function() { setInterval(update, 800);});
 
 var step = function (d) {
   var neigh = neighbors(d.__data__["i"], d.__data__["j"]);

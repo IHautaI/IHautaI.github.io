@@ -17,6 +17,10 @@
   color: white;
 }
 
+#extra {
+  background-color: white;
+}
+
 .underface {
   text-align: center;
 }
@@ -30,11 +34,6 @@
   border-top:none;
 }
 
-#extra {
-  background-color: #999999;
-/*#FCC697;*/
-}
-
 #github {
   border-bottom: #999999;
   border-bottom-width: .1em;
@@ -43,6 +42,8 @@
 
 #bio {
   background-color: #999999;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 #about {
@@ -53,10 +54,6 @@
 #bio p {
   text-align: left;
   box-sizing:border-box;
-}
-
-#bio .pure-u-1-5 {
-  text-align: center;
 }
 
 #bio .pure-u-4-5 {

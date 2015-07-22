@@ -20,7 +20,9 @@
   color: white;
 }
 
-
+.pure-menu-link:hover, .pure-menu-link:focus {
+  background-color: #ddd;
+}
 
 .underface {
   text-align: center;

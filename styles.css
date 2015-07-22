@@ -1,0 +1,95 @@
+.face {
+  background-color: #3D2F91;
+  padding-bottom: 2em;
+}
+
+.title {
+  background-color: #3D2F91;
+  text-align: center;
+}
+
+#face {
+  border-radius:45%;
+}
+
+#name {
+  font-weight: lighter;
+  color: white;
+}
+
+/*#links {
+  text-align:center;
+}*/
+
+.underface {
+  text-align: center;
+}
+
+#extra {
+  background-color: #999999;
+/*#FCC697;*/
+}
+
+#bio {
+  background-color: #999999;
+}
+
+#about {
+  border-right: #999999;
+  border-right-width: .1em;
+  border-right-style: ridge;
+}
+#bio p {
+  text-align: left;
+  box-sizing:border-box;
+}
+
+#bio .pure-u-1-5 {
+  text-align: center;
+}
+
+#bio .pure-u-4-5 {
+  text-align: left;
+}
+
+.pure-menu {
+  background-color: #999999;
+
+}
+
+.pure-menu {
+  display:block;
+  float:left;
+  width:100%;
+  overflow:hidden;
+  position:relative;
+  height:auto;
+}
+
+.pure-menu ul {
+  clear:left;
+  float:left;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:50%;
+  text-align:center;
+}
+
+.pure-menu ul li {
+  display:block;
+  float:left;
+  position:relative;
+  right:50%;
+}
+
+.pure-menu ul li a {
+  /*display: block;*/
+  margin 0 0 0 1px;
+  color: black;
+
+}
+
+body {
+  background-color: #FFFFFF;
+}

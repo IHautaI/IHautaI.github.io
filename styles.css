@@ -4,6 +4,7 @@ body {
 
 .face {
   background-color: #777777;
+  width: 100%;
 }
 
 .title {
@@ -31,6 +32,7 @@ body {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+  width: 100%;
 }
 
 .email a {

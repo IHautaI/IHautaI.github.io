@@ -32,12 +32,19 @@ img {
   margin-right: 1em;
 }
 
+.vertical-align {
+  position: relative;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
 .image {
   text-align: center;
 }
 
 .contained-text {
-  text-align:center;
+  text-align: center;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: 1em;

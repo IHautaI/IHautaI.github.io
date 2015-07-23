@@ -2,11 +2,11 @@
 var svg = d3.selectAll("svg");
 
 var m = 32; // m and n should always be even here
-var n = 16;
+var n = 64;
 var len = 12;
 
-var upcolor = "white"
-var downcolor = "#999999"
+var upcolor = "#777777"
+var downcolor = "white"
 
  var highthresh = 6;
  var lowthresh = 2;

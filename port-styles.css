@@ -25,11 +25,10 @@ body {
   padding-bottom: 3em;
   text-align: center;
   border-radius: 5%;
-  -webkit-box-shadow: 0 5px 60px;
+  -webkit-box-shadow: 0 0px 30px black;
 }
-
 .twos .item img {
-  border-radius: 5%;
+  border-radius: 8%;
   width: 95%;
   display: inline;
   border: black;

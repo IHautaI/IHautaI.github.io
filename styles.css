@@ -58,6 +58,11 @@
   border-right-style: groove;
 }
 
+#resume-button {
+  border-right: #777777;
+  border-right-size: .1em;
+  border-right-style: groove;
+}
 
 .pure-menu a {
   color: black;
@@ -132,6 +137,10 @@
   background-color: white;
 }
 
+#pdfholder {
+  text-align: center;
+  display:none;
+}
 
 body {
   background-color: #47B0C5;

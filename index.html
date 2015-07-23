@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../pure-release-0.6.0/grids-responsive-min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./styles.css">
+  <script src="jquery-2.1.4.min.js"></script>
 </head>
 
 <body>
@@ -17,6 +18,7 @@
     </div>
 
     <div class="pure-u-3-5">
+      <a name="noresume"></a>
       <h2 id="name">Jeremy Gresham</h2>
       <h3>Programmer, Mathematician</h3>
     </div>
@@ -58,6 +60,7 @@
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a class="pure-menu-link" id="github" href="https://github.com/IHautaI/" target="_blank">Github</a></li>
         <li class="pure-menu-item"><a class ="pure-menu-link" id="linkedin" href="https://www.linkedin.com/in/jsgresham" target="_blank">LinkedIn</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" id="resume-button" href="#resume">Resume</a></li>
         <li class="pure-menu-item"><a class="pure-menu-link" id="portfolio" href="/portfolio.html" target="_blank">Portfolio</a></li>
       </ul>
     </div>
@@ -99,5 +102,11 @@
     </div>
   </div>
 
+  <div id="pdfholder">
+    <a name="resume"></a>
+    <a id="noresume" href="#noresume">drop Resume</a>
+    <iframe src="http://docs.google.com/gview?url=https://raw.githubusercontent.com/IHautaI/resume/e2c37c3a7ab9bb96a713328e4dc8cddf48d0482b/resume.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+  </div>
+<script src="./index.js"></script>
 </body>
 </html>

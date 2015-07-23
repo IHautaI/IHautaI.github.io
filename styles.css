@@ -1,18 +1,19 @@
 .face {
-  background-color: #3D2F91;
+  background-color: #777777;
   /*padding-bottom: 1em;*/
 }
 
 .title {
-  background-color: #3D2F91;
+  background-color: #777777;
   text-align: center;
 }
 
 #face {
   border-radius:45%;
-  border: white;
+  /*border: white;
   border-width: .15em;
-  border-style: solid;
+  border-style: solid;*/
+  -webkit-box-shadow: 0px 5px 20px;
 }
 
 #name {
@@ -21,7 +22,7 @@
 }
 
 .email {
-  background-color: #3D2F91;
+  background-color: #777777;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -55,22 +56,22 @@
 
 .underface-center .pure-menu-link {
   /*width: 60%;*/
-  border: #999999;
+  border: #777777;
   border-width:.1em;
   border-style:ridge;
   border-bottom: none;
   border-top:none;
-  color: #3D2F91;
+  color: #777777;
   font-weight: bold;
 }
 
 #github {
-  border-bottom: #999999;
+  border-bottom: #3D2F91;
   border-bottom-width: .1em;
   border-bottom-style: groove;
 }
 #linkedin {
-  border-bottom: #999999;
+  border-bottom: #3D2F91;
   border-bottom-width: .1em;
   border-bottom-style: groove;
 }
@@ -78,13 +79,13 @@
 
 
 #bio {
-  background-color: #999999;
+  background-color: #47B0C5;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 #about {
-  border-right: #999999;
+  border-right: #47B0C5;
   border-right-width: .1em;
   border-right-style: ridge;
 }
@@ -104,5 +105,5 @@
 
 
 body {
-  background-color: #999999;
+  background-color: #47B0C5;
 }

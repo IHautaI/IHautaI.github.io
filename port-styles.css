@@ -1,0 +1,47 @@
+body {
+  background-color: #777777;
+}
+
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.title h2 {
+  font-weight: normal;
+}
+
+.twos {
+  /*border-radius: 5%;
+  background-color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;*/
+}
+
+.twos .item{
+  background-color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+  border-radius: 5%;
+  -webkit-box-shadow: 0 5px 60px;
+}
+
+.twos .item img {
+  border-radius: 5%;
+  width: 95%;
+  display: inline;
+  border: black;
+  border-width: .1em;
+  border-style: solid;
+}
+
+.twos .item a {
+  color: black;
+  text-decoration: none;
+}
+
+.twos .item .descr {
+  background-color: ;
+}

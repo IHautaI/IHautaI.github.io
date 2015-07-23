@@ -32,13 +32,13 @@ img {
   margin-right: 1em;
 }
 
-.vertical-align {
+/*.vertical-align {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
-}
+}*/
 
 .image {
   text-align: center;

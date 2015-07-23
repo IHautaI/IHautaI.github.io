@@ -40,6 +40,10 @@
   padding-top: 1em;
 }
 
+.email a:hover {
+  color: black;
+}
+
 .pure-menu {
   text-align: center;
   background-color: #eee;

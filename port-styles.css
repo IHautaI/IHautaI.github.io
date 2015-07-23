@@ -28,19 +28,16 @@ img {
   border: black;
   border-width: .1em;
   border-style: solid;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
-/*.vertical-align {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
-}*/
-
 .image {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.link {
+  width: 100%;
   text-align: center;
 }
 

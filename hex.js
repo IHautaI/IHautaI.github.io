@@ -8,7 +8,7 @@ var len = 12;
 var upcolor = "#777777"
 var downcolor = "white"
 
- var highthresh = 6;
+ var highthresh = 5;
  var lowthresh = 3;
 //var thresh = 3;
 

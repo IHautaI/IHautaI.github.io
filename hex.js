@@ -9,7 +9,7 @@ var upcolor = "#777777"
 var downcolor = "white"
 
  var highthresh = 6;
- var lowthresh = 2;
+ var lowthresh = 3;
 //var thresh = 3;
 
 var data = [];
@@ -63,7 +63,7 @@ var step = function (d) {
     }
   );
 
-  if (((d3.select(d).classed("active")) && count < highthresh && lowthresh < count) || ((!d3.select(d).classed("active")) && lowthresh < count)) {
+  if (((d3.select(d).classed("active")) && count < highthresh && lowthresh <= count) || ((!d3.select(d).classed("active")) && lowthresh - 1 === count)) {
     return true;
   } else {
     return false;

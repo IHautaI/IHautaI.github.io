@@ -49,7 +49,7 @@ var change = function (d) {
 
 circles.on("mouseover", change);
 
-$(document).ready(function() { setInterval(update, 800);});
+$(document).ready(function() { setInterval(update, 650);});
 
 var step = function (d) {
   var neigh = neighbors(d.__data__["i"], d.__data__["j"]);

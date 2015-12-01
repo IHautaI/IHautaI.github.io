@@ -1,3 +1,4 @@
+<html>
 <?php
 if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -10,3 +11,4 @@ $file = 'last.txt';
 
 file_put_contents($file, $ip);
 ?>
+</html>

@@ -1,5 +1,11 @@
 <html>
+<header>
+<title>New</title>
+</header>
 <body>
+  <p>
+    Nothing here
+  </p>
 <?php
 if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -8,7 +14,7 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 } else {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
-$file = 'last.txt';
+$file = './last.txt';
 
 file_put_contents($file, $ip);
 ?>
